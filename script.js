@@ -13,6 +13,7 @@ async function getNextQuote() {
     const quote = await getRandomQuote()
     quoteDisplayElement.innerText = quote
     quoteInputElement.value = null
+
 }
 
 getNextQuote()
